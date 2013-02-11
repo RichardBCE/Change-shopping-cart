@@ -154,3 +154,4 @@
   define('FILENAME_HELP_CENTER17', 'help_center17.php');
   define('FILENAME_HELP_CENTER18', 'help_center18.php');
   define('FILENAME_PROCESS_STATUS', 'process-status.php');
+  define('FILENAME_CONTINUE_SHOPPING', 'index.php');

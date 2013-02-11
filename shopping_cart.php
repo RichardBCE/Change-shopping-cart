@@ -1749,7 +1749,9 @@ $data_query = tep_db_query("select publication_id, publication_product_type, pro
                 <td class="main"><?php echo '<a href="' . tep_href_link($navigation->path[$back]['page'], tep_array_to_string($navigation->path[$back]['get'], array('action')), $navigation->path[$back]['mode']) . '">' . tep_image_button('button_continue_shopping.gif', IMAGE_BUTTON_CONTINUE_SHOPPING) . '</a>'; ?></td>
                 -->
                 <?php /* GLUON Code Starts */ ?>
-                <td class="main"><?php echo '<a href="' . tep_href_link(FILENAME_WORKSPACE) . '">' . tep_image_button('button_back_workspace_big.gif', IMAGE_BUTTON_CONTINUE_SHOPPING) . '</a>'; ?></td>
+                <?php /* modified RP 2-11-13 */ ?>
+                <?php //echo '<a href="' . tep_href_link(FILENAME_WORKSPACE) . '">' . tep_image_button('button_back_workspace_big.gif', IMAGE_BUTTON_CONTINUE_SHOPPING) . '</a>'; ?>
+                <td class="main"><?php echo '<a href="' . tep_href_link(FILENAME_CONTINUE_SHOPPING) . '">' . tep_image_button('button_continue_shopping.gif', IMAGE_BUTTON_CONTINUE_SHOPPING) . '</a>'; ?></td>
 				<?php /* GLUON Code Ends */ ?>
 <?php
     }
